@@ -1,4 +1,8 @@
+# ...
 
+```bash
+./dockerlock-compose-run.sh --dry-run --branch "dockerlock-compose-$(date +%YW%W)" -O coopnorge
+```
 
 ```bash
 
