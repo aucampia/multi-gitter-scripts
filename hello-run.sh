@@ -6,10 +6,10 @@ script_dirname_abs="$( readlink -f -- "${script_dirname}" )"
 script_basename="$( basename -- "${0}" )"
 
 
-exec multi-gitter run "${script_dirname}/dockerlock-compose.sh" \
+exec multi-gitter run "${script_dirname}/hello.sh" \
     --git-type=cmd \
     --log-level=debug \
-    --pr-title "Update/lock docker-compose image reference digests" \
+    --pr-title "test" \
     --pr-body \
 $'
 Update or lock docker image reference digests in docker-compose files.

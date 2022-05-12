@@ -1,7 +1,15 @@
 # ...
 
 ```bash
+./hello-run.sh --dry-run --branch "hello-$(date +%YW%W)" -O iasandbox
+
+multi-gitter close --org iasandbox  --branch "hello-$(date +%YW%W)"
+```
+
+```bash
 ./dockerlock-compose-run.sh --dry-run --branch "dockerlock-compose-$(date +%YW%W)" -O coopnorge
+
+multi-gitter close --org coopnorge  --branch "dockerlock-compose-$(date +%YW%W)"
 ```
 
 ```bash
